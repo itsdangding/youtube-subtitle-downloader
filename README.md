@@ -27,7 +27,7 @@ Paste a YouTube URL, get a beautifully formatted Markdown file with:
 ### Via Claude Code Plugin Marketplace (Recommended)
 
 ```bash
-/plugin marketplace add wanxiao2018/youtube-subtitle-downloader
+/plugin marketplace add itsdangding/youtube-subtitle-downloader
 /plugin install youtube-subtitles@youtube-subtitle-downloader
 ```
 
@@ -37,7 +37,7 @@ Then use it by typing `/youtube-subtitles` in Claude Code.
 
 ```bash
 # Clone to Claude Code skills directory
-git clone https://github.com/wanxiao2018/youtube-subtitle-downloader.git \
+git clone https://github.com/itsdangding/youtube-subtitle-downloader.git \
   ~/.claude/skills/youtube-subtitle-downloader
 ```
 
@@ -45,7 +45,7 @@ git clone https://github.com/wanxiao2018/youtube-subtitle-downloader.git \
 
 ```bash
 # Clone the repo
-git clone https://github.com/wanxiao2018/youtube-subtitle-downloader.git
+git clone https://github.com/itsdangding/youtube-subtitle-downloader.git
 
 # Copy skill to Hermes skills directory
 mkdir -p ~/.hermes/skills/media/youtube-subtitle-downloader
@@ -57,7 +57,7 @@ Or just ask Hermes: "Download subtitles for this YouTube video"
 ### As Standalone CLI
 
 ```bash
-git clone https://github.com/wanxiao2018/youtube-subtitle-downloader.git
+git clone https://github.com/itsdangding/youtube-subtitle-downloader.git
 cd youtube-subtitle-downloader
 ./scripts/download.sh "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
